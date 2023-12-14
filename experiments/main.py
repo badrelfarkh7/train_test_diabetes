@@ -33,7 +33,7 @@ def classifier(mat, model):
     
     return pred
 
-data = pd.read_csv('data//validation_diabetes_health_indicators.csv')
+data = pd.read_csv('data/validation_diabetes_health_indicators.csv')
 data['Diabetes_012'] = data['Diabetes_012'].astype(int)
 
 y = data['Diabetes_012']
